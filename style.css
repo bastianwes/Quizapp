@@ -1,0 +1,11 @@
+.body {
+    background-color: #007aff;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #007aff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
