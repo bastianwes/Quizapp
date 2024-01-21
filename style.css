@@ -1,5 +1,6 @@
-.body {
-    background-color: #007aff;
+body {
+    background-color: #007aff !important;
+    margin: 0;
 }
 
 .container {
@@ -8,4 +9,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.bg-success,
+.bg-danger {
+    color: white !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.final-headline {
+    font-size: 38px;
+    margin-bottom: 32px;
+}
+
+.progress {
+    background-color: rgb(0, 174, 255) !important;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 }
